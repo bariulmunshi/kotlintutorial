@@ -45,4 +45,39 @@ package com.example.kotlintutorial
     }
 }*/
 
+// loop
+/*fun main(){
+    for (i in 1..5) {
+        println("roll number: $i")
+    }
+}
+*/
+// function of two number addition
+/*fun addNumbers(a: Int, b: Int): Int {
+    return a + b
+}
 
+fun main() {
+    val result = addNumbers(10, 20) // ইনপুট দেওয়া হলো ১০ এবং ২০
+    println("Addition of Two Number: $result")
+}*/
+
+// Learn Variable, loop, conditional
+fun main() {
+    val userName = "Abir" // Variable
+    var balance = 500     // Variable
+
+    println("Welcome $userName, Your Balance is $balance tk")
+
+    // Using Loop 2times recharge
+    for (i in 1..3) {
+        balance += 10
+        println("$i Balance After recharge: $balance")
+    }
+
+    // Conditional দিয়ে চেক করা
+    if (balance > 700) {
+        println("You have enough money")
+    }else{println("you haven't much money")}
+
+}
