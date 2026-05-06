@@ -1,6 +1,6 @@
 package com.example.kotlintutorial
-// 1
-fun main(){
+// Problem-1
+/*fun main(){
     println("Hello World")
     var name:String = "Bariul"
     name= "Rakib"
@@ -10,5 +10,14 @@ fun main(){
     println(age)
 
 }
+*/
+//Problem-2 python print("Hello World")
 
-//2
+//problem-3 java
+/*public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+*/
